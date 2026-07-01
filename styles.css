@@ -179,6 +179,7 @@ a { -webkit-tap-highlight-color: transparent; }
   .igro-footnote { flex-direction: column !important; gap: 8px !important; }
   .igro-s2-grid { grid-template-columns: 1fr !important; padding-left: 0 !important; }
   .igro-s2-note { padding-left: 0 !important; }
+  .igro-retro-grid { grid-template-columns: 1fr !important; }
   .igro-s3-intro { grid-template-columns: 1fr !important; }
   .igro-status-cards { grid-template-columns: 1fr !important; }
   .igro-liga-card { flex-direction: row !important; align-items: center !important; text-align: left !important; gap: 18px !important; }
