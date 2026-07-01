@@ -77,10 +77,11 @@ a { -webkit-tap-highlight-color: transparent; }
 .igro-link { color: var(--green-accent); font-weight: 700; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; letter-spacing: -0.01em; transition: gap .2s ease; }
 .igro-link:hover { gap: 12px; }
 
-.igro-btn { display: inline-flex; align-items: center; gap: 10px; background: transparent; color: var(--green-house); border: 2px solid var(--green-house); border-radius: 2px; font-family: var(--font-body); font-weight: 700; font-size: 14px; letter-spacing: -0.01em; padding: 12px 22px; cursor: pointer; transition: transform .2s ease, background .2s ease, color .2s ease; }
+.igro-btn { display: inline-flex; align-items: center; gap: 10px; background: transparent; color: var(--green-house); border: 2px solid var(--green-house); border-radius: 2px; font-family: var(--font-body); font-weight: 700; font-size: 14px; letter-spacing: -0.01em; padding: 12px 22px; cursor: pointer; text-decoration: none; transition: transform .2s ease, background .2s ease, color .2s ease; }
 .igro-btn:hover { background: var(--green-house); color: #fff; }
 .igro-btn:active { transform: scale(0.98); }
 
+.igro-cta-btn { text-decoration: none; }
 .igro-cta-btn:hover { background: var(--green-primary) !important; }
 .igro-cta-btn:active { transform: scale(0.98); }
 
